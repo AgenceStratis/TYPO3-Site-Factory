@@ -78,6 +78,12 @@ module.tx_sitefactory {
 			label       = duplication_process.save_site_configuration
 			usedInSiteModification = 1
 		}
+		
+		lessCompilation {
+			class       = Stratis\SiteFactory\Duplication\Process\LessCompilationProcess
+			label       = duplication_process.less_compilation
+			usedInSiteModification = 1
+		}
 	}
 
 	duplication {
@@ -88,6 +94,7 @@ module.tx_sitefactory {
 #		50  < module.tx_sitefactory.duplicationProcesses.backendUserCreation
 		60  < module.tx_sitefactory.duplicationProcesses.uploadedFiles
 		70  < module.tx_sitefactory.duplicationProcesses.backendConstantsAssignation
+		75  < module.tx_sitefactory.duplicationProcesses.lessCompilation
 		80  < module.tx_sitefactory.duplicationProcesses.linkToPageMedia
 		90  < module.tx_sitefactory.duplicationProcesses.LinkToPageBackendLayout
 		100 < module.tx_sitefactory.duplicationProcesses.saveSiteConfiguration
