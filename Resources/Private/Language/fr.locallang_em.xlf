@@ -11,7 +11,27 @@
 
 			<trans-unit id="copy_destination_uid">
 				<source>Uid of the page where the sites will be duplicated</source>
-				<target>Uid de la page vers laquelle seront dupliqué les sites</target>
+				<target>Uid de la page vers laquelle seront dupliqués les sites</target>
+			</trans-unit>
+
+			<trans-unit id="less_file">
+				<source>Path to main LESS file</source>
+				<target>Fichier LESS principal</target>
+			</trans-unit>
+
+			<trans-unit id="css_path">
+				<source>Generated CSS files directory</source>
+				<target>Dossier de destination des fichiers CSS générés</target>
+			</trans-unit>
+
+			<trans-unit id="css_name">
+				<source>Created CSS file name {id} = siteRoot</source>
+				<target>Nom du fichier; {id} = siteRoot</target>
+			</trans-unit>
+
+			<trans-unit id="variables">
+				<source>List of variables to parse; Variables must be equals to field names</source>
+				<target>Liste des variables à écraser; Leurs noms doivent correspondre au champs TypoScript</target>
 			</trans-unit>
 
 		</body>

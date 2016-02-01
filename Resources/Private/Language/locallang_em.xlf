@@ -12,6 +12,22 @@
 				<source>Uid of the page where the sites will be duplicated</source>
 			</trans-unit>
 
+			<trans-unit id="less_file">
+				<source>Path to main LESS file</source>
+			</trans-unit>
+
+			<trans-unit id="css_path">
+				<source>Generated CSS files directory</source>
+			</trans-unit>
+
+			<trans-unit id="css_name">
+				<source>Created CSS file name {id} = siteRoot</source>
+			</trans-unit>
+
+			<trans-unit id="variables">
+				<source>List of variables to parse; Variables must be equals to field names</source>
+			</trans-unit>
+
 		</body>
 	</file>
 </xliff>

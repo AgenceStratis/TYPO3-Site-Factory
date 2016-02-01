@@ -11,6 +11,9 @@
 			<trans-unit id="module.header_buttons.new">
 				<source>Create a new site</source>
 			</trans-unit>
+			<trans-unit id="module.header_buttons.compile_less">
+				<source>Compile LESS files</source>
+			</trans-unit>
 			<trans-unit id="module.header_buttons.help">
 				<source>Open help menu</source>
 			</trans-unit>
@@ -354,6 +357,10 @@
 
 			<trans-unit id="duplication_process.save_site_configuration">
 				<source>Saving configuration…</source>
+			</trans-unit>
+
+			<trans-unit id="duplication_process.less_compilation">
+				<source>Compiling LESS files…</source>
 			</trans-unit>
 
 			<!-- MISCELLANEOUS -->
