@@ -3,3 +3,15 @@ modelSitesPid = 0
 
 # cat=Basic; type=int+; label=LLL:EXT:site_factory/Resources/Private/Language/locallang_em.xlf:copy_destination_uid
 copyDestination = 0
+
+# cat=LESS; type=string; label=LLL:EXT:site_factory/Resources/Private/Language/locallang_em.xlf:less_file
+lessFile =
+
+# cat=LESS; type=string; label=LLL:EXT:site_factory/Resources/Private/Language/locallang_em.xlf:css_path
+cssPath = typo3temp/less/css/
+
+# cat=LESS; type=string; label=LLL:EXT:site_factory/Resources/Private/Language/locallang_em.xlf:css_name
+cssName = {id}.css
+
+# cat=LESS; type=string; label=LLL:EXT:site_factory/Resources/Private/Language/locallang_em.xlf:variables
+variables =
